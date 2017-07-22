@@ -13,6 +13,7 @@ Build-Depends: dbus-test-runner,
                qtchooser,
                qt5-qmake,
                qttools5-dev-tools,
+               xauth,
                xvfb,
 Standards-Version: 3.9.3
 Homepage: https://launchpad.net/accounts-qml-module
