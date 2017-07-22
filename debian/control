@@ -15,7 +15,7 @@ Build-Depends: dbus-test-runner,
                qttools5-dev-tools,
                xauth,
                xvfb,
-Standards-Version: 3.9.3
+Standards-Version: 4.0.0
 Homepage: https://launchpad.net/accounts-qml-module
 Vcs-Bzr: https://code.launchpad.net/~online-accounts/accounts-qml-module/trunk
 
