@@ -1,3 +1,9 @@
+accounts-qml-module (0.7-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- JBBgameich <jbb.mail@gmx.de>  Sun, 20 Aug 2017 00:08:34 +0200
+
 accounts-qml-module (0.6+17.04.20170405-0ubuntu1) zesty; urgency=medium
 
   [ Łukasz 'sil2100' Zemczak ]
