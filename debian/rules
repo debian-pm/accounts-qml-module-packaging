@@ -4,6 +4,9 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+%:
+	dh $@
+
 override_dh_auto_configure:
 	QT_SELECT=qt5 \
 	dh_auto_configure \
@@ -15,7 +18,7 @@ override_dh_auto_configure:
 override_dh_install:
 	rm -rf debian/*/usr/bin
 	rm -f debian/*/usr/share/accounts-qml-module/doc/html/.gitignore
-	dh_install --fail-missing
+	dh_install
 
-%:
-	dh $@
+override_dh_missing:
+	dh_missing --fail-missing
